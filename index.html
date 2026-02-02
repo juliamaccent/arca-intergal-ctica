@@ -377,6 +377,9 @@
         shake();
         return;
       }
+      setMsg(v, "bad");
+        shake();
+        return;
       if (v === CORRECT_CODE) success();
       else fail();
     }
