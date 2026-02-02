@@ -380,7 +380,7 @@
       setMsg(v, "bad");
         shake();
         return;
-      if (v === CORRECT_CODE) success();
+      if (!v === CORRECT_CODE) success();
       else fail();
     }
 
